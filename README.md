@@ -13,3 +13,9 @@ Make sure not to output files that match this pattern, or you'll recursively add
 # Cerner row of interest marker
 Processess an HTML file (which should be the Cerner Model index) to add class names to table rows. The `rows_of_interest_file` should be a plain text file containing the table names we care about.
 Allows users to apply JS or CSS filtering so that they only see the rows that are relevant to their project. 
+
+# Prerequisites:
+
+You need access to the [Cerner Model Reports](https://community.cerner.com/t5/Cerner-Millennium-Data-Model-Reports/2018-10-Data-Models/ta-p/1623759)
+
+UNIX-like shell such as zsh or bash 
